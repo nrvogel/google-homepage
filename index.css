@@ -1,0 +1,80 @@
+ul{
+    list-style-type: none;
+    margin: 22px 0 0 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    font-family: "arial", "sans-serif";
+    font-size: 15px;
+}
+li.fright{
+    float: right;
+    padding-right: 15px;
+}
+li.fleft{
+    float: left;
+    padding-left: 15px;
+}
+li.rfooter{
+    float: right;
+    padding-right: 15px;
+}
+li.lfooter{
+    float: left;
+    padding-left: 15px;
+}
+div.fnavbar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(237,238,239);
+}
+center{
+    position: relative;
+    top: 200px;
+}
+input[type=text]{
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: rgb(237,238,239);
+    width: 565px;
+}
+img{
+    padding-bottom: 20px;
+    position: relative;
+    left: 62px;
+}
+input[type=submit]{
+    margin-top: 25px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    box-sizing: border-box;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-color: rgb(237,238,239);
+    width: 125px;
+}
+li.lfooter, li.rfooter{
+    position: relative;
+    bottom: 10px;
+}
+li, input[type=submit]{
+    color: rgb(77, 82, 87)
+}
+#signin {
+    background-color: rgb(66, 133, 244);
+    color: white;
+    border-radius: 2px;
+    padding: 4px 8px;
+    border-color: rgb(66, 133, 244);
+    position: relative;
+    bottom: 5px;
+    border: 1px rgb(66, 133, 244) solid;
+}
+input, textarea, button{
+    border: 2px solid gray;
+}
+
